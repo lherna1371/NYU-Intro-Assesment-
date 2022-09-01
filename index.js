@@ -1,8 +1,9 @@
 // Obtain the img element, and assign it to the image variable
-let image
-
+let image = document.querySelector('#pet');
+console.log(image)
 // Obtain the 'shrink-grow' button, and assign it to the changeSize variable
-let changeSize
+let changeSize = document.querySelector('#shrink-grow');
+console.log(changeSize)
 
 //DO NOT CHANGE THE FOLLOWING CODE
 changeSize.addEventListener("click", function() {
